@@ -51,6 +51,7 @@ function eck_entity_type_features_export_render($module, $data, $export = NULL) 
     'name' => FALSE,
     'label' => TRUE,
     'properties' => FALSE,
+    'config' => FALSE,
   );
 
   $output = array();
